@@ -171,6 +171,8 @@ h2 { font-size: clamp(46px, 6vw, 88px); }
 .project:hover .project-visual { transform: translateY(-5px); }
 .visual-one { height: 620px; background: var(--visual-one); }
 .visual-two { background: var(--visual-two); }
+.project-image { display: block; width: min(52%, 250px); max-height: 82%; object-fit: contain; transform: scale(1.1) rotate(-4deg); filter: drop-shadow(0 25px 25px rgba(0,0,0,.2)); }
+.project:hover .project-image { transform: scale(1.1) rotate(-4deg); }
 .visual-three { position: relative; color: var(--ink); background: var(--visual-three); }
 .mock-browser { width: 76%; height: 75%; padding: 10px; background: #ede8dd; box-shadow: 0 30px 60px rgba(0,0,0,.3); }
 .mock-top { display: flex; gap: 5px; height: 20px; }
